@@ -9,8 +9,8 @@ const About = () => {
   return (
     <div className={classes.AboutWrapper}>
       <h4 className={classes.topText}>
-      &quot;Clean code, powerful functionality, stunning design - that&apos;s my promise
-        to every client.&quot;
+      Clean code, powerful functionality, stunning design - thats my promise
+        to every client.
       </h4>
       <div>
         {/* <h4 className={classes.servicesText}>Best Services</h4> */}
