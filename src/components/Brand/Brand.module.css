@@ -76,3 +76,36 @@
   font-size: 28px;
   color: var(--true-blue);
 }
+
+@media (max-width: 37.5rem) {
+  .topBrand {
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+    margin-left: auto;
+    justify-content: center;
+  }
+
+  .textDiv {
+    width: 350px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .details {
+    width: 350px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .details > div:not(:last-of-type) {
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 0.1px solid var(--light-blue);
+  }
+}

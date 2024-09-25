@@ -42,3 +42,13 @@
   padding: 10px;
   background-color: #04161b;
 }
+
+@media (max-width: 37.5rem) {
+  .prjD > img {
+    /* filter: brightness(80%) contrast(150%); */
+    width: 350px;
+  }
+  .prjLink {
+    width: 350px;
+  }
+}

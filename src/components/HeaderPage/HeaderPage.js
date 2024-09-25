@@ -7,6 +7,7 @@ import logo from "../../../public/assets/logo.svg"
 import { MdOutlineLightMode } from "react-icons/md";
 import { GoArrowUpRight } from "react-icons/go";
 import classes from "./HeaderPage.module.css"
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const HeaderPage = () => {
   return (
@@ -37,6 +38,7 @@ const HeaderPage = () => {
             height={30}
           />
         </div>
+        <GiHamburgerMenu className={classes.hambuger}/>
       </div>
       <div className={classes.WrapperTwo}>
         <div>
