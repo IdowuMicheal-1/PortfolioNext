@@ -11,7 +11,7 @@ const Contact = () => {
     <>
     <div className={classes.topContact}>
       <div>
-        <h4 className={classes.pgT}>Got A Project In Mind?<br /> Let's Talk</h4>
+        <h4 className={classes.pgT}>Got A Project In Mind?<br /> Let&apos;s Talk</h4>
       </div>
       <div>
         <div className={classes.HeroButton} onClick={() => setContactForm(!contactForm)}>

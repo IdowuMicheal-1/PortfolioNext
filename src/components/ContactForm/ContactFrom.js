@@ -11,9 +11,9 @@ const ContactFrom = () => {
       <h4 className={classes.contFText}>Contact</h4>
       <div className={classes.formDiv}>
         <div className={classes.formOne}>
-          <h4 className={classes.talkPrj}>Let's Talk For Your Next Projects</h4>
+          <h4 className={classes.talkPrj}>Let&apos;s Talk For Your Next Projects</h4>
           <p className={classes.subText}>
-            Your project deserves the best. Let’s bring your ideas to life with
+            Your project deserves the best. Let&apos;s bring your ideas to life with
             innovative solutions. Together, we can make it happen!
           </p>
           <div className={classes.divIn}>
