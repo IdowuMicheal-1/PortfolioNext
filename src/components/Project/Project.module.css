@@ -1,0 +1,44 @@
+.topProject {
+  margin-top: 100px;
+}
+
+.topE {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  /* color: var(--light-blue); */
+}
+
+.projectDIv {
+  position: relative;
+}
+
+.prjLink {
+  position: absolute;
+  background-color: #04161b;
+  display: flex;
+  width: 500px;
+  bottom: 0;
+  left: 0;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  padding: 10px 20px;
+  align-items: baseline;
+}
+
+.prjLink a {
+  text-decoration: none;
+  color: white;
+}
+
+.prjD > img {
+  filter: brightness(80%) contrast(150%);
+}
+
+.link {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #04161b;
+}

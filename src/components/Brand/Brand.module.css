@@ -1,0 +1,78 @@
+.topBrand {
+  display: flex;
+  margin-top: 120px;
+  margin-left: auto;
+  justify-content: center;
+
+  /* justify-content: space-between; */
+}
+
+.brandText {
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.brandText > span {
+  font-size: 48px;
+  color: black;
+  -webkit-text-stroke: 0.5px white; /* width and color */
+  margin-bottom: 30px;
+}
+
+.textDiv {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.flasIcon {
+  font-size: 84px;
+  border: none;
+  color: var(--true-blue);
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.descText {
+  font-size: 18px;
+}
+
+.descTextG {
+  font-size: 18px;
+  color: var(--true-blue);
+}
+
+.textTop {
+  display: flex;
+}
+
+.descD {
+  font-size: 20px;
+}
+
+.descDG {
+  font-size: 20px;
+  color: var(--true-blue);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  border-left: 0.1px solid var(--light-blue);
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.details > div:not(:last-of-type) {
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 0.1px solid var(--light-blue);
+}
+
+.midImg > svg {
+  margin-right: 20px;
+  font-size: 28px;
+  color: var(--true-blue);
+}

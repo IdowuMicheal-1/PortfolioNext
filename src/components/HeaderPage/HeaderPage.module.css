@@ -1,0 +1,173 @@
+.Wrapper {
+  font-size: 30px;
+}
+
+.Wrapper > img {
+  filter: grayscale(70%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.HeaderTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.LogoWrapper {
+  display: inline;
+  font-size: calc(24 / 16 * 1rem);
+}
+
+.LinkWrapper {
+  display: flex;
+  cursor: pointer;
+}
+
+.LinkWrapper > li {
+  list-style: none;
+  font-size: calc(18 / 16 * 1rem);
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.IconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IconWrapper > img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.HeroText {
+  font-size: calc(50 / 16 * 1rem);
+  width: 600px;
+}
+
+.TextSpan {
+  font-size: calc(30 / 16 * 1rem);
+  width: 600px;
+  color: var(--true-blue);
+}
+
+.TextWrapper {
+  padding-top: 120px;
+}
+
+.HireButton {
+  border-radius: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0px;
+  border: 1.5px solid var(--true-blue);
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--true-blue);
+  color: var(night);
+  margin-right: -45px;
+  z-index: 2;
+  font-size: calc(18 / 16 * 1rem);
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  will-change: transform;
+}
+
+.ArrowButton {
+  border-radius: 24px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border: 1.5px solid var(--true-blue);
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 15px;
+  background-color: var(--night);
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90px;
+  font-size: calc(20 / 16 * 1rem);
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  will-change: transform;
+}
+
+.HeroButton {
+  display: flex;
+  /* background-color: red; */
+  width: fit-content;
+  cursor: pointer;
+  will-change: transform;
+  margin-top: 10px;
+}
+
+.HeroButton:hover > button,
+.HeroButton:focus > button {
+  transform: scale(1.2);
+}
+
+@keyframes float {
+  from {
+    transform: translateX(calc(100% + 60px));
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.HeroImage {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  cursor: pointer;
+  animation: float 1000ms ease-in-out backwards;
+}
+
+.HeroImage > img {
+  filter: grayscale(40%) brightness(120%);
+  border-radius: 10px 34px 10px 34px;
+  transform: scaleX(-1);
+  transition: filter 250ms ease-in-out;
+}
+
+.HeroImage:hover > img {
+  filter: brightness(120%);
+}
+
+.WrapperTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.OpenText {
+  position: absolute;
+  font-size: 16px;
+  bottom: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.OpenSub {
+  position: absolute;
+  font-size: 12px;
+  bottom: 0;
+  left: 0;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}

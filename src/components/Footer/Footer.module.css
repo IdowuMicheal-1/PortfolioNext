@@ -1,0 +1,11 @@
+.topFooter {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.iconDivs > svg {
+  margin-left: 20px;
+  font-size: 24px;
+}

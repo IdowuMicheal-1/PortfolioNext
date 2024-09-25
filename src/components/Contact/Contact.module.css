@@ -1,0 +1,80 @@
+.topContact {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1px solid var(--light-blue);
+  border-bottom: 0.1px solid var(--light-blue);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: -60px;
+  margin-right: -60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.pgT {
+  font-size: 28px;
+  font-weight: 200px;
+}
+
+.HeroButton {
+  display: flex;
+  /* background-color: red; */
+  width: fit-content;
+  cursor: pointer;
+  will-change: transform;
+  margin-top: 10px;
+}
+
+.HeroButton:hover > button,
+.HeroButton:focus > button {
+  transform: scale(1.2);
+}
+
+@keyframes float {
+  from {
+    transform: translateX(calc(100% + 60px));
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.HireButton {
+  border-radius: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 0px;
+  border: 1.5px solid var(--true-blue);
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--true-blue);
+  color: var(night);
+  margin-right: -45px;
+  z-index: 2;
+  font-size: calc(18 / 16 * 1rem);
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  will-change: transform;
+}
+
+.ArrowButton {
+  border-radius: 24px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border: 1.5px solid var(--true-blue);
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 15px;
+  background-color: var(--night);
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90px;
+  font-size: calc(20 / 16 * 1rem);
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  will-change: transform;
+}

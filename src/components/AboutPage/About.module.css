@@ -1,0 +1,36 @@
+.WebImage {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AboutWrapper {
+  margin-top: 80px;
+}
+
+.topText {
+  font-size: 24px;
+  text-align: center;
+  width: 700px;
+  /* display: flex;
+  justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ImageWeb > img {
+  object-fit: cover;
+  border-radius: 15px 30px 15px 30px;
+}
+
+.servicesText {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--true-blue);
+  font-size: 20px;
+}
+
+.webPText {
+  font-size: 18px;
+  color: var(--true-blue);
+}
