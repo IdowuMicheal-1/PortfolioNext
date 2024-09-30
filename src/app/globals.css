@@ -1,34 +1,26 @@
-*,::before,::after{
+/* Reset and global styles */
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-  --true-blue: #3066BE;
-  --light-blue:#0C65DB;
-  --midnight-green:#07393C,
-  --night: #0A090C,
-  --cyan:#26F0F1,
-  --lemon:#FBF6D0;
+  font-family: var(--mulish-font), sans-serif; /* Apply Mulish font by default */
 }
 
-body{
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 20px;
-}
-
-@media(max-width:37.5rem) {
-  body{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
- 
-}
+/* Color variables */
 :root {
+  --true-blue: #3066be;
+  --light-blue: #0c65db;
+  --midnight-green: #07393c; /* Fix the comma here */
+  --night: #0a090c;
+  --cyan: #26f0f1;
+  --lemon: #fbf6d0;
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* Dark mode support */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -36,21 +28,29 @@ body{
   }
 }
 
-html,
+/* Body styles */
 body {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--mulish-font), sans-serif; /* Make sure the default font uses Mulish */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Responsive padding */
+@media (max-width: 37.5rem) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
+/* Dark mode HTML */
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

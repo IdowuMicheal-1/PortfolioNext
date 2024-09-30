@@ -232,8 +232,9 @@
 @media (max-width: 59.375rem) {
   .HeroText {
     font-size: calc(45 / 16 * 1rem);
-    max-width: min-content;
+    max-width: 350px;
     /* width: 600px; */
+    align-items: center;
   }
 
   .WrapperTwo {
