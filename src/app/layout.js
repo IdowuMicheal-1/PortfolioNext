@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-
+import {cookies} from 'next/headers'
 import { Mulish } from 'next/font/google';
 
 const mulish = Mulish({
